@@ -1,6 +1,6 @@
 import typing
 
-import asyncpg
+import asyncpg  # type: ignore
 from ponty import DoesNotExist
 
 from pontypg.provider import lease_postgres_conn, defaultdb

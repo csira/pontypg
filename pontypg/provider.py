@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 import typing
 
-import asyncpg
+import asyncpg  # type: ignore
 from ponty import Provider
 from ponty.registry import Registry
 
