@@ -4,6 +4,7 @@ from setuptools import find_packages, setup
 if __name__ == "__main__":
     setup(
         packages=find_packages(),
+        package_data={"pontypg": ["py.typed"]},
         name="pontypg",
         version="0.2.1",
         license="BSD",
