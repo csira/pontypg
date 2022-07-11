@@ -3,16 +3,15 @@ from setuptools import find_packages, setup
 
 if __name__ == "__main__":
     setup(
-        packages=find_packages(include=["pontypg", "pontypg/*"]),
+        packages=find_packages(),
         name="pontypg",
-        version="0.1.0",
-        author_email="cbsira@gmail.com",
+        version="0.2.1",
         license="BSD",
         url="https://github.com/csira/pontypg",
         description="Basic async postgres utils. Extends ponty.",
         install_requires=[
             "asyncpg==0.21.0",
-            "ponty==0.1.0",
+            "ponty==0.2.1",
             "typing-extensions==4.2.0",
         ],
         python_requires=">=3.8",
