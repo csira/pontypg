@@ -1,6 +1,6 @@
 asyncpg==0.21.0
 build
 mypy==0.961
-ponty==0.2.1
+ponty>=0.2.2
 twine==4.0.1
 typing-extensions==4.2.0
