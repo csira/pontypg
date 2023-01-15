@@ -1,4 +1,4 @@
-asyncpg==0.21.0
+asyncpg>=0.21.0
 build
 mypy==0.961
 ponty>=0.2.2
