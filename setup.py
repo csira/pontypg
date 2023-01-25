@@ -6,7 +6,7 @@ if __name__ == "__main__":
         packages=find_packages(),
         package_data={"pontypg": ["py.typed"]},
         name="pontypg",
-        version="0.2.3",
+        version="0.2.4",
         license="BSD",
         url="https://github.com/csira/pontypg",
         description="Basic async postgres utils. Extends ponty.",
